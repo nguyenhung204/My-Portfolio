@@ -30,6 +30,7 @@ body {
     letter-spacing: 0.5px;
     color: #333333;
     overflow-x: hidden;
+    overflow-y: visible;
 }
 h1,
 h2,
@@ -388,9 +389,6 @@ a:hover{
 .banner_content .banner_btn{
 	margin-right: 15px;
 }
-.banner_btn a{
-    text-decoration: none;
-}
 .banner_btn{
 	border: 2px solid #fd4312;
 	text-decoration: none;
@@ -410,6 +408,11 @@ a:hover{
 	border: 2px solid #fd4312;
     color: #fff;
     transform: scale(0.95);
+}
+a, a:visited, a:hover, a:active, a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
 }
 #round{
     position: absolute;
