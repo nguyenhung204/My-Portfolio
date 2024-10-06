@@ -394,7 +394,6 @@ a:hover{
     text-decoration: none;
 }
 .banner_btn{
-	background: #fd4312;
 	border: 2px solid #fd4312;
 	text-decoration: none;
 	padding: 8px 30px;
@@ -406,10 +405,13 @@ a:hover{
     transition: all 0.3s ease-in-out 0s;
 	border-radius: 50px;
 }
+.fill_color{
+    background: #fd4312;
+}
 .banner_btn:hover{
-	background: transparent;
 	border: 2px solid #fd4312;
     color: #fff;
+    transform: scale(0.95);
 }
 #round{
     position: absolute;
