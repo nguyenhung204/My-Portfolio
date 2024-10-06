@@ -404,6 +404,9 @@ a:hover{
 .fill_color{
     background: #fd4312;
 }
+.fill_color:hover{
+    background: transparent;
+}
 .banner_btn:hover{
 	border: 2px solid #fd4312;
     color: #fff;
