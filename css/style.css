@@ -470,7 +470,7 @@ a, a:visited, a:hover, a:active, a:focus {
     font-weight: 600;
     text-transform: capitalize;
     display: inline-block;
-    width: 25%;
+    width: 19%;
 }
 .about_details span{
 	color: #fff;
@@ -478,6 +478,7 @@ a, a:visited, a:hover, a:active, a:focus {
 .ct_about{
 	margin: 10px 0;
 	color: #fff;
+    font-size: 10pt;
 }
 .ct_about span i{
 	margin-right: 5px;
